@@ -16,7 +16,7 @@ function somar (a,b){
 ```
 Você pode colocar a chamada da função tanto em cima quanto abaixo dela.
 
-//--------------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------------
 
 2. Function Expression
 
@@ -33,7 +33,7 @@ let somar = function (a,b){
 Aqui como tem variável você precisa usar as palavras-chaves de declaração de variáveis.
 A chamada da função deve ficar abaixo dela.
 
-//-------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------
 
 3. Arrow Function
 
