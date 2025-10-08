@@ -9,10 +9,11 @@ Ela é boa para funções global.
 
 Ex.:
 
+```js
 function somar (a,b){
   return a + b;
 }
-
+```
 Você pode colocar a chamada da função tanto em cima quanto abaixo dela.
 
 //--------------------------------------------------------------------------------------------
@@ -24,10 +25,11 @@ A função é guardada em uma variável.
 
 Ex.:
 
+```js
 let somar = function (a,b){
   return a + b;
 }
-
+```
 Aqui como tem variável você precisa usar as palavras-chaves de declaração de variáveis.
 A chamada da função deve ficar abaixo dela.
 
@@ -38,15 +40,16 @@ A chamada da função deve ficar abaixo dela.
 Tem uma sintaxe mais curta.
 
 Ex.:
-
+```js
 let somar = (a,b) => a + b;
-
+```
 Como pode ver ela tem um "return" implícito.
 Mas quando tem mais de uma expressão, precisa usar {} e do "return".
 
 Ex.:
-
+```js
 let somar = (a,b) => {
   let result = a + b;
   return result;
 }
+```
